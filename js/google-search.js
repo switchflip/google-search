@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 		// vars 
 		var term = $('input').val();
-		var url = 'https://www.googleapis.com/customsearch/v1?key=AIzaSyArZQGhf1dbDJo_SdrFRcF_zL4ulkj5Ygg&cx=017576662512468239146:omuauf_lfve&q=' + term;
+		var url = 'https://www.googleapis.com/customsearch/v1?key=YOUR-KEY-GOES-HERE:omuauf_lfve&q=' + term;
 		var items = [];
 
 		// getJSON
